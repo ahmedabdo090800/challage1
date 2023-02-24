@@ -1,0 +1,127 @@
+:root{
+    --Bright_orange: hsl(31, 77%, 52%);
+    --Dark_cyan: hsl(184, 100%, 22%);
+    --Very_dark_cyan: hsl(179, 100%, 13%);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca' ,'Big Shoulders Display';
+    color: aliceblue;
+
+}
+
+body{
+    background: rgb(255, 255, 255,0.1);
+    font-size: 15px;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.con{
+    background: rgb(255, 255, 255,0.1);
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+
+}
+/*
+col_1
+*/
+.col_1{
+    background: var(--Bright_orange);
+    margin: 10px;
+    position: relative;
+    height: 80vh;
+    overflow: none;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+
+.header{
+    font-size: 15px;
+    padding: 45px 10px;
+    text-align: center;
+
+}
+
+#inp1,#inp2{
+    margin: 10px;
+    width: 100px;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+
+
+}
+.result{
+height: 10vh;
+                width: 50%; margin: auto;
+                border: 2px solid; border-radius: 30px; text-align: center; 
+}
+
+    
+
+
+/*
+----------------------------------------
+col_2
+*/
+
+
+.col_2{
+    background: var(--Dark_cyan);
+    margin: 10px;
+
+    position: relative;
+    height: 80vh;
+    overflow: none;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.sort_pro{
+  text-align: center; margin-top: 110px; font-size: larger;
+}
+.hr{
+    top: 50%;
+    font-size: larger;
+}
+
+/*
+-------------------------------------------------------------------
+col_3
+*/
+
+.col_3{
+    background: var(--Very_dark_cyan);
+    margin: 10px;
+
+    position: relative;
+    height: 80vh;
+    overflow: none;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
